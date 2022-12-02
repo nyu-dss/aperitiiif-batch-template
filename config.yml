@@ -1,0 +1,14 @@
+# batch config
+
+label:          'Rijksmuseum Demo'
+description:    'Demo collection for aperitiiif service'
+attribution:    'Provided by Rijksmuseum via Wikimedia Commons'
+
+presentation_api_url: 'https://aperitiiif-presentation-api-store.s3.us-east-1.amazonaws.com'
+image_api_url:        'https://d1b7k5w7yjwpfg.cloudfront.net/iiif/2'
+
+records:
+  file: 'src/records.csv'
+  defaults:
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Rijks_museum_logo.png'
+    source: 'https://commons.wikimedia.org/wiki/Category:Prints_by_Katsukawa_Shunsh%C5%8D_in_the_Rijksmuseum_Amsterdam'

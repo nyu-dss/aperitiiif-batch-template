@@ -1,0 +1,68 @@
+GIT
+  remote: https://github.com/nyu-dss/aperitiiif-cli.git
+  revision: b52deaf8e0e8586fcd3626152897b882d33dd314
+  tag: v0.1.1
+  specs:
+    aperitiiif (0.1.1)
+      colorize
+      iiif-presentation
+      liquid
+      mimemagic
+      parallel
+      ruby-progressbar
+      ruby-vips
+      safe_yaml
+      thor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    colorize (0.8.1)
+    concurrent-ruby (1.1.10)
+    faraday (2.6.0)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.1)
+    ffi (1.15.5)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    iiif-presentation (1.0.0)
+      activesupport (>= 3.2.18)
+      faraday (>= 0.9)
+      json
+    json (2.6.2)
+    liquid (5.4.0)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
+    minitest (5.16.3)
+    nokogiri (1.13.9-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
+    parallel (1.22.1)
+    racc (1.6.0)
+    rake (13.0.6)
+    ruby-progressbar (1.11.0)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
+    ruby2_keywords (0.0.5)
+    safe_yaml (1.0.5)
+    thor (1.2.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-darwin-21
+  x86_64-linux
+
+DEPENDENCIES
+  aperitiiif!
+
+BUNDLED WITH
+   2.3.12
