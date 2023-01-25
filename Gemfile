@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'aperitiiif', github: 'nyu-dss/aperitiiif-cli', branch: 'bug/extreme-aspect-ratio-thumbnails'
+gem 'aperitiiif', github: 'middlicomp/aperitiiif-cli', tag: 'v0.1.2'
 # gem 'aperitiiif', path: 'aperitiiif-cli'
